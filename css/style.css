@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Redaction50';
+    src: url('font/Redaction50-8Mg4n\ copy.otf');
+}
+
+@font-face {
+    font-family: 'Redaction35';
+    src: url('font/Redaction35-BWXjw\ copy.otf');
+}
+
+@font-face {
+    font-family: 'Redaction35Italic';
+    src: url('font/Redaction35Italic-rgDrB\ copy.otf');
+}
+
+/**************************************************/
+
+body {
+    background-color: #170019;
+    color: #FAF6DE;
+    font-family: 'Redaction50';
+}
+
+footer {
+    font-size: 1rem;
+    font-style:'Redaction50';
+    margin: auto;
+    display: flex;
+    padding-left: 1340px;
+    justify-content: space-between;
+}
+
+h1 {
+    /* font-family: 'Redaction 35Italic'; */
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 220px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #FAF6DE;
+}
+
+p {
+    padding-top: 50px;
+    font-size: 17px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.index-talking {
+    font-family: 'Redaction50';
+    /* text-align: center; */
+}
+
+.typewriter h1 {
+    color: #FAF6DE;
+    font-size: 30px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid orange; The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(30, end)
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  /* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  } */
+/******** HELLO.HTML **********/
+
+#answersone {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#onestargif {
+    padding-left: 600px;
+}
+
+/******** RETURN.HTML **********/
+
+#supertinystar {
+    padding-left: 650px;
+    padding-top: 100px;
+}
+
+/******** HELLO.HTML **********/
+
+#beastgif1 {
+    padding-left: 400px;
+}
+
+#answerstwo {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+/******** SECRETS AND SECRETSTWO.HTML **********/
+
+#answersthree {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 200px;
+}
+
+/******** WHATEVER.HTML **********/
+
+#beastgifeyeroll {
+    padding-left: 400px
+}
+
+/******** GREEN.HTML **********/
+
+#pleasedbeast {
+    padding-left: 400px;
+}
+
+/******** PERIWINKLE.HTML **********/
+
+#spinningworld {
+    padding-left: 430px;
+}
+
+#twinklingstar {
+    padding-left: 175px;
+    padding-top: 100px;
+}
+
+/******** YELLOW.HTML (JOINME ALSO FOR WHITE.HTML and BLUE.HTML) **********/
+
+#answersfour {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+/* #joinme {
+    padding: 0px 150px 0px 150px;
+    text-align: center;
+} */
+
+/******** DARKBLUE.HTML **********/
+
+#shockedbeast {
+    padding-left: 400px;
+}
