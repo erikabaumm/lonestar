@@ -17,6 +17,7 @@
 
 body {
     background-color: #170019;
+    background-image: url("../img/bruhhhhhh.gif");
     color: #FAF6DE;
     font-family: 'Redaction50';
 }
@@ -57,6 +58,7 @@ p {
 
 a:hover {
     color: yellow;
+    cursor: pointer;
 }
 
 .index-talking {
@@ -87,6 +89,7 @@ a:hover {
     50% { border-color: orange }
   } */
 /******** HELLO.HTML **********/
+
 
 #answersone {
     display: flex;
@@ -171,3 +174,20 @@ a:hover {
 #shockedbeast {
     padding-left: 400px;
 }
+
+/**********ENDINGONE AND TWO.HTML***********/
+
+#endingtext {
+    padding-top: 200px
+}
+
+#endingfooter {
+    padding-top: 200px;
+}
+
+#twinklingstar:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
