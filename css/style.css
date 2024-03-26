@@ -188,6 +188,9 @@ a:hover {
 #twinklingstar:hover {
     transform: scale(1.05);
     cursor: pointer;
-    
+    overlay: opacity(.75);
 }
 
+#twinklingstar:hover overlay {
+    opacity: 1;
+}
